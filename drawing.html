@@ -2,39 +2,81 @@
 <html>
 <head>
 	<title>arqStudio</title>
+	<link rel="stylesheet" type="text/css" href=resources/style3.css>
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+	
 </head>
 <body>
 	<header>
-		<nav>
-			<img src="logo.png">
-			<ul class="header-nav">
-				<li><a href="about.html">Quem Somos</a></li>
-				<li><a href="projects.html">Projetos</a></li>
-				<li><a href="drawings.html">Estudos</a></li>
-				<li><a href="contact.html">Contados</a></li>
-			</ul>
-		</nav>
+		<div class="linha">
+			<h2><a href="index.html">ArqStudio</a></h2>
+			<nav class="nav">
+				<span class="navbar-toggle" id="js-navbar-toggle">
+                    <i class="fas fa-bars"></i>
+                </span>
+				<!-- menu!!! -->
+				<ul class="header-nav"  id="js-menu">
+					<li><a class="link" href="about.html">Quem Somos</a></li>
+					<li><a class="link" href="projects.html">Projetos</a></li>
+					<li><a class="link" href="drawing.html">Estudos</a></li>
+					<li><a class="link" href="contact.html">Contados</a></li>
+				</ul>
+			</nav>
+		</div>
 	</header>
 	<body>
-		<img src="draw1.html">
-		<p>lorem ipsum</p>
-		<img src="draw2.html">
-		<p>lorem ipsum</p>
-		<img src="draw3.html">
-		<p>lorem ipsum</p>
-		<img src="draw4.html">
-		<p>lorem ipsum</p>
-		<img src="draw5.html">
-		<p>lorem ipsum</p>
-		<img src="draw6.html">
-		<p>lorem ipsum</p>
-		<img src="draw7.html">
-		<p>lorem ipsum</p>
-		<img src="draw8.html">
-		<p>lorem ipsum</p>
+		<div class="main">
+			<h1>Croquis de Estudo</h1>
+			<div class="grid">
+				<div class="item">
+					<img src="resources/img/studio.png">	
+				</div>
+				<div class="item">
+					<img src="resources/img/casa.png">	
+				</div>
+				<div class="item">
+					<img src="resources/img/predio.png">	
+				</div>
+				<div class="item">
+					<img src="resources/img/house.png">	
+				</div>
+			</div>
+
+			<div class="grid">
+				<div class="item">
+					<img src="resources/img/house.png">
+				</div>
+				<div class="item">
+					<img src="resources/img/predio.png">	
+				</div>
+				<div class="item">
+					<img src="resources/img/studio.png">	
+				</div>
+				<div class="item">
+					<img src="resources/img/casa.png">
+				</div>
+			</div>
+			<div class="grid">
+				<div class="item">
+					<img src="resources/img/studio.png">	
+				</div>
+				<div class="item">
+					<img src="resources/img/casa.png">	
+				</div>
+				<div class="item">
+					<img src="resources/img/predio.png">	
+				</div>
+				<div class="item">
+					<img src="resources/img/house.png">	
+				</div>
+			</div>
+		</div>
+		
 	</body>
 	<footer>
-		<div>
+		<div class="linha">
 			<div>
 				<ul class="footer-nav">
 					<li><a href="about.html">Quem Somos</a></li>
@@ -52,7 +94,7 @@
 				</ul>
 			</div>
 		</div>
-		<div>
+		<div class="linha">
 			<p>Todos os direitos reservados. 2019</p>
 		</div>
 	</footer>
