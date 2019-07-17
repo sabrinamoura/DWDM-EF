@@ -1,7 +1,7 @@
 Site de Arquitetura desenvolvido para a disciplina Desenvolvimento WEB para dispositivos móveis.
 
   Página Inicial
-  
+  <br>
   Quem Somos
   
   Projetos
