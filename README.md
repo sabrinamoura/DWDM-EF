@@ -3,13 +3,13 @@ Site de Arquitetura desenvolvido para a disciplina Desenvolvimento WEB para disp
   Página Inicial
   <br>
   Quem Somos
-  
+  <br>
   Projetos
-  
+  <br>
   Estudos
-  
+  <br>
   Detalhes dos Projetos
-  
+  <br>
   Contato
   
 Todas as imagens utilizadas foram retiradas do site unsplash.com
