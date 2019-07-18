@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>arqStudio</title>
+	<link rel="stylesheet" type="text/css" href=resources/style5.css>
+	<link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+			<div class="linha">
+				<h2><a href="index.html">ArqStudio</a></h2>
+				<nav class="nav">
+					<span class="navbar-toggle" id="js-navbar-toggle">
+	                    <i class="fas fa-bars"></i>
+	                </span>
+					<!-- menu!!! -->
+					<ul class="header-nav"  id="js-menu">
+						<li><a class="link" href="about.html">Quem Somos</a></li>
+						<li><a class="link" href="projects.html">Projetos</a></li>
+						<li><a class="link" href="drawing.html">Estudos</a></li>
+						<li><a class="link" href="contact.html">Contados</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+	<main>
+		<div class="intro">
+				<h1>Entre em contato com a gente!</h1>
+		</div>
+		<div>
+			<ul class="form-style-1">
+			    <li><label>Nome<span class="required"></span></label>
+			    	<input type="text" name="field1" class="field-divided" placeholder="Nome" />
+			    	<input type="text" name="field2" class="field-divided" placeholder="Sobrenome" /></li>
+			    <li>
+			        <label>Email <span class="required"></span></label>
+			        <input type="email" name="field3" class="field-long" placeholder="you@email.com" />
+			    </li>
+			    <li>
+			        <label>Contato</label>
+			        <input type="tel" name="phone" class="field-divided" placeholder="(00) 0000-0000">
+			        <input type="tel" name="phone" class="field-divided" placeholder="(00) 0000-0000"  >
+			    </li>
+			  
+			    <li>
+			        <label>Dúvidas? Sugestões?</label>
+			        <textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
+			    </li>
+			    <li>
+			        <input type="submit" value="Enviar"/>
+			    </li>
+			</ul>
+			</form>
+		</div>
+	</main>
+	<footer>
+		<div>
+			<div>
+				<ul class="footer-nav">
+					<li><a href="about.html">Quem Somos</a></li>
+					<li><a href="projects.html">Projetos</a></li>
+					<li><a href="drawings.html">Estudos</a></li>
+					<li><a href="contact.html">Contados</a></li>
+				</ul>
+			</div>
+			<div>
+				<ul class="social">
+					<li><a href="#"><ion-icon class="logo-instagram" name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon class="logo-facebook" name="logo-facebook"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon class="logo-googleplus" name="logo-googleplus"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon class="logo-twitter" name="logo-twitter"></ion-icon></a></li>
+				</ul>
+			</div>
+		</div>
+		<div>
+			<p>Todos os direitos reservados. 2019</p>
+		</div>
+	</footer>
+	<script type="text/javascript" src="vendors/jquery.js"></script>
+	<script type="text/javascript" src="vendors/slick/slick.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+	    	$('.slick').slick({
+	  		});
+		});
+	</script>
+	<script src="resources/js/main.js"></script>
+</body>
+</html>
